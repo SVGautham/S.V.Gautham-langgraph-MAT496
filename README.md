@@ -22,3 +22,9 @@ I learned how to create simple graphs in LangGraph, including defining states, n
 Changes made: Added my own custom graph implementation at the end of the source code under the section titled “TWEAK.”
 Source Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%201/Original%20Source%20Code/chain.ipynb) 
 Tweaked Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%201/chain_final.ipynb)
+
+**Video 5 – Router**
+I learned about the concept of a router agent, where the chat model decides whether to give a direct response or call a tool based on the user’s input. It demonstrated how the LLM manages control flow — either by invoking a tool or replying directly to the query.
+Changes made: Used Groq’s "openai/gpt-oss-120b" model, created my own router example at the end, and included screenshots of the LangGraph Studio visualization.
+Source Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%201/Original%20Source%20Code/router.ipynb) 
+Tweaked Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%201/router_final.ipynb)
