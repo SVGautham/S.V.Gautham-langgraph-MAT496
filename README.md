@@ -9,3 +9,7 @@ I learned how to create simple graphs in LangGraph, including defining states, n
 Changes made: Added my own custom graph implementation at the end of the source code under the section titled “TWEAK.”
 Source Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%201/Original%20Source%20Code/simple-graph.ipynb) 
 Tweaked Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%201/simple_graph_final.ipynb)
+
+**Video 3 – LangGraph Studio Setup**
+I learned how to set up and run LangGraph Studio both locally and within the studio environment. The video covered how to use the UI to input a graph state and view the dataflow threads of the graph.
+Changes made: Since I used Groq as the client, I installed the required dependencies after setting up the environment, created a .env file containing the Groq and LangSmith API keys, and updated the client in router.py and agent.py (inside the /studio directory) from ChatOpenAI() to ChatGroq() for proper tool binding.
