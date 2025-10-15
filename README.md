@@ -34,3 +34,8 @@ I learned about agentic architecture, where the assistant can pass a ToolMessage
 Changes made: Used Groq’s "openai/gpt-oss-120b" model, created my own agent example at the end, and added screenshots of the LangSmith traces.
 Source Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%201/Original%20Source%20Code/agent.ipynb) 
 Tweaked Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%201/agent_final.ipynb)
+
+**Video 7 – Agent With Memory**
+I learned how agents can retain information from previous steps using persistent memory, where a checkpointer automatically saves the graph state after each action. For my own work, I switched to Groq's "openai/gpt-oss-120b" model, implemented a custom example of an agent with memory, and included screenshots of the LangGraph Studio visualization to illustrate the graph and its state changes.
+Source Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%201/Original%20Source%20Code/agent-memory.ipynb) 
+Tweaked Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%201/agent_memory_final.ipynb)
