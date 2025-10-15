@@ -28,3 +28,9 @@ I learned about the concept of a router agent, where the chat model decides whet
 Changes made: Used Groq’s "openai/gpt-oss-120b" model, created my own router example at the end, and included screenshots of the LangGraph Studio visualization.
 Source Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%201/Original%20Source%20Code/router.ipynb) 
 Tweaked Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%201/router_final.ipynb)
+
+**Video 6 – Agent**
+I learned about agentic architecture, where the assistant can pass a ToolMessage back to the LLM, which then decides whether to call another tool or respond directly. I also explored how LangSmith lets us view traces of the entire conversation.
+Changes made: Used Groq’s "openai/gpt-oss-120b" model, created my own agent example at the end, and added screenshots of the LangSmith traces.
+Source Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%201/Original%20Source%20Code/agent.ipynb) 
+Tweaked Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%201/agent_final.ipynb)
