@@ -39,3 +39,6 @@ Tweaked Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/bl
 I learned how agents can retain information from previous steps using persistent memory, where a checkpointer automatically saves the graph state after each action. For my own work, I switched to Groq's "openai/gpt-oss-120b" model, implemented a custom example of an agent with memory, and included screenshots of the LangGraph Studio visualization to illustrate the graph and its state changes.
 Source Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%201/Original%20Source%20Code/agent-memory.ipynb) 
 Tweaked Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%201/agent_memory_final.ipynb)
+
+**Video 8 – Deployment**
+I learned how to deploy the implemented Graph models both locally in Studio and on LangGraph Cloud. I practiced by writing and running code to deploy the model locally, which is available in my GitHub repository: Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%201/deployment.ipynb). Since LangGraph Cloud is a paid feature, I was unable to test deployment on the cloud platform.
