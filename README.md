@@ -42,3 +42,7 @@ Tweaked Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/bl
 
 **Video 8 – Deployment**
 I learned how to deploy the implemented Graph models both locally in Studio and on LangGraph Cloud. I practiced by writing and running code to deploy the model locally, which is available in my GitHub repository: Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%201/deployment.ipynb). Since LangGraph Cloud is a paid feature, I was unable to test deployment on the cloud platform.
+
+## Module 2
+**Video 1 – State Schema:**
+Learned how to define state schemas in LangGraph using three different approaches — TypedDict, dataclass, and Pydantic. Each method helps structure and organize the data used in the graph’s state. I also understood how these schemas facilitate managing and updating the state as the graph executes. Additionally, I observed that Pydantic is unique in providing built-in runtime validation, unlike the other two methods. Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%202/state_schema.ipynb).
