@@ -53,3 +53,7 @@ Explored state management in LangGraph using reducers, focusing on how they hand
 **Video 3 – Multiple Schemas:**
 Learned how to use multiple schemas in LangGraph to efficiently manage data flow. This approach enables maintaining private state within nodes and defining explicit input and output schemas to control the graph’s interface. These techniques allow precise control over what data enters, is processed inside, and exits the graph.
  Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%202/multiple_schemas.ipynb).
+
+**Video 4 – Trim and Filter Messages:**
+Learned how to manage message history in LangGraph using various techniques such as reducing the number of messages, filtering specific subsets, and trimming messages based on token limits. These strategies are essential for optimizing chatbot performance by efficiently controlling the input sent to the language model.
+Changes made: Developed my own example at the end and included screenshots of LangSmith traces from my implementation.  Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%202/trim_filter_messages.ipynb).
