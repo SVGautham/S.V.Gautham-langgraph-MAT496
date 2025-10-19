@@ -57,3 +57,7 @@ Learned how to use multiple schemas in LangGraph to efficiently manage data flow
 **Video 4 – Trim and Filter Messages:**
 Learned how to manage message history in LangGraph using various techniques such as reducing the number of messages, filtering specific subsets, and trimming messages based on token limits. These strategies are essential for optimizing chatbot performance by efficiently controlling the input sent to the language model.
 Changes made: Developed my own example at the end and included screenshots of LangSmith traces from my implementation.  Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%202/trim_filter_messages.ipynb).
+
+**Video 5 – Chatbot with Summarizing Messages and Memory:**
+Learned how to build a chatbot in LangGraph that utilizes message summarization to manage conversation length effectively. The video also demonstrated how to incorporate memory using LangGraph’s built-in persistence mechanism with thread IDs.
+Changes made: Created my own example at the end and included screenshots of LangSmith traces illustrating the functioning of persistence and summarization.Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%202/chatbot_summarization.ipynb).
