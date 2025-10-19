@@ -46,3 +46,6 @@ I learned how to deploy the implemented Graph models both locally in Studio and 
 ## Module 2
 **Video 1 – State Schema:**
 Learned how to define state schemas in LangGraph using three different approaches — TypedDict, dataclass, and Pydantic. Each method helps structure and organize the data used in the graph’s state. I also understood how these schemas facilitate managing and updating the state as the graph executes. Additionally, I observed that Pydantic is unique in providing built-in runtime validation, unlike the other two methods. Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%202/state_schema.ipynb).
+
+**Video 2 – State Reducer:**
+Explored state management in LangGraph using reducers, focusing on how they handle concurrent update ambiguities during branching. Understood default overwriting behavior, the importance of reducers in branching, and the use of built-in options like “operator.add” and “add_messages.” Also learned to create custom reducers for specialized cases, such as handling None values or modifying messages. Implemented a custom example to apply these concepts in practice. Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%202/state_reducers.ipynb).
