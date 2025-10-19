@@ -49,3 +49,7 @@ Learned how to define state schemas in LangGraph using three different approache
 
 **Video 2 – State Reducer:**
 Explored state management in LangGraph using reducers, focusing on how they handle concurrent update ambiguities during branching. Understood default overwriting behavior, the importance of reducers in branching, and the use of built-in options like “operator.add” and “add_messages.” Also learned to create custom reducers for specialized cases, such as handling None values or modifying messages. Implemented a custom example to apply these concepts in practice. Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%202/state_reducers.ipynb).
+
+**Video 3 – Multiple Schemas:**
+Learned how to use multiple schemas in LangGraph to efficiently manage data flow. This approach enables maintaining private state within nodes and defining explicit input and output schemas to control the graph’s interface. These techniques allow precise control over what data enters, is processed inside, and exits the graph.
+ Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%202/multiple_schemas.ipynb).
