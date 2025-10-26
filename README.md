@@ -71,3 +71,7 @@ ode:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/M
 **Video 1 – Streaming**
 Learned how to set up a LangGraph chatbot with memory and stream outputs during execution using various streaming modes — values, updates, and astream_events — to observe the graph’s state and token flow in real time.
 Changes made: Used Groq’s "openai/gpt-oss-120b" model and implemented a custom example at the end. Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%203/streaming-interruption.ipynb).
+
+**Video 2 – Breakpoints**
+Explored how to use breakpoints in LangGraph to pause an agent’s graph execution at specific nodes, enabling human-in-the-loop workflows (e.g., user approval before executing actions).
+Changes made: Used Groq’s "openai/gpt-oss-120b" model and implemented a custom example at the end. Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/tree/main/Module%203).
