@@ -66,3 +66,8 @@ Changes made: Created my own example at the end and included screenshots of Lang
 Learned how to build a LangGraph chatbot with persistent memory using an external database (SQLite) checkpointer. The video demonstrated how to define the conversation state, create nodes for interaction and summarization, and compile a graph that stores and retrieves conversation history from a database.
 Changes made: Experimented with my own set of prompts on the graph and verified the summarization and memory retention using an external database (PostgreSQL).
 ode:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%202/chatbot_external_memory.ipynb).
+
+## Module 3
+**Video 1 – Streaming**
+Learned how to set up a LangGraph chatbot with memory and stream outputs during execution using various streaming modes — values, updates, and astream_events — to observe the graph’s state and token flow in real time.
+Changes made: Used Groq’s "openai/gpt-oss-120b" model and implemented a custom example at the end. Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%203/streaming-interruption.ipynb).
