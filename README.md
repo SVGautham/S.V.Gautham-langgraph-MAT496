@@ -75,3 +75,7 @@ Changes made: Used Groq’s "openai/gpt-oss-120b" model and implemented a custom
 **Video 2 – Breakpoints**
 Explored how to use breakpoints in LangGraph to pause an agent’s graph execution at specific nodes, enabling human-in-the-loop workflows (e.g., user approval before executing actions).
 Changes made: Used Groq’s "openai/gpt-oss-120b" model and implemented a custom example at the end. Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/tree/main/Module%203).
+
+**Video 3 – Editing State and Human Feedback**
+Learned how to use LangGraph breakpoints to interrupt execution and modify the graph’s state. Demonstrated two methods: directly updating the state and using a dedicated human_feedback node for structured interaction.
+Changes made: Used Groq’s "openai/gpt-oss-120b" model and implemented a custom example at the end. Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%203/edit-state-human-feedback.ipynb).
