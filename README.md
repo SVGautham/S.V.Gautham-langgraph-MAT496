@@ -82,3 +82,7 @@ Changes made: Used Groq’s "openai/gpt-oss-120b" model and implemented a custom
 
 **Video 4 – Dynamic Breakpoints**
 Learned about the concept of dynamic breakpoints in LangGraph using NodeInterrupt. This feature allows conditional interruptions of graph execution based on the current state. It demonstrates how to pause execution, inspect and modify the state after an interrupt, and then resume the graph with the updated state — enabling human-in-the-loop workflows for approval, debugging, and live editing. Changes made: Implemented a custom example at the end. Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%203/dynamic-breakpoints.ipynb).
+
+**Video 5 – Time Travel**
+Explored the time travel capabilities of LangGraph, which allow users to review an agent’s execution history, replay from a previous state, or fork the execution by modifying a past state and continuing from there. These tools are valuable for debugging and analyzing agent behavior.
+Changes made: Added screenshots demonstrating forking tools in the agent graph within LangGraph Studio, and implemented a custom example to fork and replay states in my own graph. Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%203/time-travel.ipynb).
