@@ -86,3 +86,7 @@ Learned about the concept of dynamic breakpoints in LangGraph using NodeInterrup
 **Video 5 – Time Travel**
 Explored the time travel capabilities of LangGraph, which allow users to review an agent’s execution history, replay from a previous state, or fork the execution by modifying a past state and continuing from there. These tools are valuable for debugging and analyzing agent behavior.
 Changes made: Added screenshots demonstrating forking tools in the agent graph within LangGraph Studio, and implemented a custom example to fork and replay states in my own graph. Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%203/time-travel.ipynb).
+
+## Module 4
+**Video 1 – Parallelization**
+In this video, I explored parallel node execution in LangGraph. It shows how to run multiple nodes at the same time and how to handle state updates from these parallel branches using custom reducers and waiting mechanisms.Changes made: Switched to Groq’s "openai/gpt-oss-120b" model, Added screenshots showing how the graph works in LangGraph Studio. Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%204/parallelization.ipynb).
