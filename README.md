@@ -91,5 +91,10 @@ Changes made: Added screenshots demonstrating forking tools in the agent graph w
 **Video 1 – Parallelization**
 In this video, I explored parallel node execution in LangGraph. It shows how to run multiple nodes at the same time and how to handle state updates from these parallel branches using custom reducers and waiting mechanisms.Changes made: Switched to Groq’s "openai/gpt-oss-120b" model, Added screenshots showing how the graph works in LangGraph Studio. Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%204/parallelization.ipynb).
 
-Video 2 – Sub-graphs
+**Video 2 – Sub-graphs**
 Explored the concept of sub-graphs in LangGraph. The session illustrates how to build reusable workflow components—sub-graphs—with their own independent state and logic, and then integrate them into a parent graph to manage more complex processes such as parallel data processing. Modifications made: Implemented a custom example to reinforce understanding. Added screenshots showcasing LangSmith traces and the graph visualization in LangGraph Studio. Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%204/sub-graph.ipynb).
+
+**Video 3 – Map-Reduce**
+Explored the map-reduce paradigm using the LangGraph library. The session demonstrates how to decompose a larger task into smaller, parallelizable sub-tasks (map phase) and subsequently aggregate their outputs (reduce phase) within a stateful graph structure. This was illustrated through examples such as joke generation and text summarization.
+Modifications made: Utilized Groq’s “openai/gpt-oss-120b” model for experimentation.Added screenshots showcasing LangSmith traces and the graph visualization in LangGraph Studio.Developed and implemented a custom example to reinforce understanding.Code:[Link](https://github.com/SVGautham/S.V.Gautham-langgraph-MAT496/blob/main/Module%204/map-reduce.ipynb).
+
